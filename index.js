@@ -76,5 +76,5 @@ app.get("/sortear/:user", (req, res) => {
 const port = 3030
 
 app.listen(port, () => {
-  console.log('Server listen on port ' + port)
+  console.log('Server listen on por ' + port)
 })
