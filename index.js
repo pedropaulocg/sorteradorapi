@@ -73,7 +73,7 @@ app.get("/sortear/:user", (req, res) => {
 
   return res.status(200).json({ name });
 });
-const port = 3030
+const port = 443
 
 app.listen(port, () => {
   console.log('Server listen o ' + port)
