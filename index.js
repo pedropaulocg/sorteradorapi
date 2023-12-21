@@ -1,28 +1,33 @@
 import express from "express";
 import cors from 'cors'
+// import path
 const app = express()
 app.use(cors())
 const namesArray = [
-  { nome: "Pedro", took: false },
-  { nome: "Ana Flavia", took: false },
-  { nome: "Tia Wan", took: false },
-  { nome: "Tio Paulo", took: false },
-  { nome: "Paula", took: false },
-  { nome: "Vovó Sina", took: false },
-  { nome: "Tia Mila", took: false },
-  { nome: "Laura", took: false },
-  { nome: "Luisa", took: false }
+  { nome: "Tatiana", took: false },
+  { nome: "Alexandre", took: false },
+  { nome: "Matheus", took: false },
+  { nome: "Adaline", took: false },
+  { nome: "Sandra (mãe)", took: false },
+  { nome: "Dana (pai)", took: false },
+  { nome: "Alexandre Filho", took: false },
+  { nome: "Thainara", took: false },
+  { nome: "Elisangela", took: false },
+  { nome: "Valdeci", took: false },
+  { nome: "Maria Luisa", took: false }
 ];
 const participants = [
-  { nome: "Pedro", took: false },
-  { nome: "Ana Flavia", took: false },
-  { nome: "Tia Wan", took: false },
-  { nome: "Tio Paulo", took: false },
-  { nome: "Paula", took: false },
-  { nome: "Vovó Sina", took: false },
-  { nome: "Tia Mila", took: false },
-  { nome: "Laura", took: false },
-  { nome: "Luisa", took: false }
+  { nome: "Tatiana", took: false },
+  { nome: "Alexandre", took: false },
+  { nome: "Matheus", took: false },
+  { nome: "Adaline", took: false },
+  { nome: "Sandra (mãe)", took: false },
+  { nome: "Dana (pai)", took: false },
+  { nome: "Alexandre Filho", took: false },
+  { nome: "Thainara", took: false },
+  { nome: "Elisangela", took: false },
+  { nome: "Valdeci", took: false },
+  { nome: "Maria Luisa", took: false }
 ];
 
 function getRandomName(user) {
